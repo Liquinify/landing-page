@@ -104,6 +104,17 @@
   box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
 }
 
+.error-message {
+  color: #fc5c65;
+  font-size: 12px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.input-error {
+  border-color: #fc5c65 !important;
+}
+
 @media (min-width: 768px) {
   .contact-container {
     padding-inline: 8.125rem;

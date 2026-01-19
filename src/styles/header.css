@@ -45,6 +45,20 @@
   align-items: center;
 }
 
+.start-btn:hover {
+  background: #7181FC;
+}
+
+.start-btn:active {
+  background: #354BF4;
+}
+
+.start-btn:disabled {
+  background: #E0E0E0;
+}
+
+
+
 .header-image {
   display: flex;
   justify-content: center;
