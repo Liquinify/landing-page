@@ -1,6 +1,6 @@
 {
-  "name": "trade-landing",
-  "homepage": "https://liquinify.github.io/trade-landing/",
+  "name": "landing-page",
+  "homepage": "https://liquinify.github.io/landing-page/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
