@@ -1,0 +1,140 @@
+.navigation-mobile {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navigation-logo {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.navigation-side {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+
+.sign-btn {
+  font-size: 12px;
+  padding: 8px 16px;
+}
+
+.navigation-img {
+  width: 20px;
+}
+
+.sign-btn {
+  display: none;
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .navigation-mobile {
+    padding-inline: 1.75rem;
+  }
+  
+  .navigation-side {
+    gap: 3rem;
+  }
+  
+  .navigation-img {
+    width: 24px;
+  }
+}
+
+.navigation {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sign-btn {
+    display: block;
+  }
+}
+
+@media (min-width: 1440px) {
+  .navigation-mobile {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background: white;
+  }
+
+  .navigation-logo {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+
+  .navigation-menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation-menu li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+  }
+
+  .navigation-menu li a:hover {
+    color: #6366f1;
+  }
+
+  .navigation-side {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .language-selector {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    transition: border-color 0.3s ease;
+  }
+
+    .sign-btn {
+    display: block;
+  }
+
+  .language-selector:hover {
+    border-color: #6366f1;
+  }
+
+  .language-selector svg {
+    width: 12px;
+    height: 12px;
+  }
+}

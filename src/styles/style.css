@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import './nav.css';
+@import './header.css';
+@import './faq.css';
+@import './contact-form.css';
+@import './getting-started.css';
+@import './carousel.css';
+@import './footer.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("./fonts/museosanscyrl.ttf");
+}
+
+.span {
+  background: #d4c5f9;
+  padding: 0 .5rem;
+}
+
+
+
+
+
